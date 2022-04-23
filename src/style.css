@@ -1,0 +1,144 @@
+.card-styling.card {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f8f9fa;
+  width: 45rem;
+}
+
+::placeholder {
+  font-family: "Cabin Sketch", cursive;
+}
+.btn-default {
+  font-family: "Cabin Sketch", cursive;
+}
+
+#search {
+  margin-top: 20px;
+  font-family: "Cabin Sketch", cursive;
+}
+
+.container {
+  max-width: 720px;
+}
+
+.localTime {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 15px;
+  color: grey;
+}
+
+.time {
+  font-family: "Cabin Sketch", cursive;
+  font-weight: bold;
+  font-size: 38px;
+  color: #6893ee;
+}
+
+.cityTemp {
+  font-family: "Cabin Sketch", cursive;
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #d0dfff;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.cityName {
+  font-size: 50px;
+  color: white;
+}
+
+.cityDeg {
+  font-size: 65px;
+  color: #6893ee;
+}
+
+.cityDescription {
+  font-size: 30px;
+  color: #86abf9;
+}
+
+.tempDetails {
+  font-family: "Cabin Sketch", cursive;
+  padding: 30px;
+  text-align: center;
+  background-color: #d0dfff;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+  font-size: 20px;
+  color: #6893ee;
+}
+.forecast {
+  color: #f8f9fa;
+}
+.celcius {
+  color: grey;
+  font-size: 15px;
+}
+
+.fahrenheit {
+  color: darkgray;
+  font-size: 15px;
+}
+
+.forecast {
+  font-family: "Cabin Sketch", cursive;
+}
+.monday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.tuesday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.wednesday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.thursday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.friday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.saturday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
+.sunday {
+  background-color: #d0dfff;
+  text-align: center;
+  padding: 18px;
+  border-radius: 50%;
+  border: solid 3px;
+  border-color: #6893ee;
+}
