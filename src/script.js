@@ -46,11 +46,6 @@ function showTemp(response) {
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
 
-  document.querySelector("#weather-icon").setAttribute =
-    ("src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
-}
-
 function displayCity(event) {
   event.preventDefault();
   let cityElement = document.querySelector("#city-name");
