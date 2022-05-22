@@ -22,7 +22,12 @@
   font-size: 20px;
   color: black;
 }
-#change-degree {
+#celsius-link {
+  font-size: 20px;
+  color: black;
+}
+
+#farenhite-link {
   font-size: 20px;
   color: black;
 }
