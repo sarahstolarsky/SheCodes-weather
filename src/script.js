@@ -30,14 +30,14 @@ function showTemp(response) {
   document.querySelector("#city-deg").innerHTML = `${Math.round(
     response.data.main.temp
   )}°C`;
-  document.querySelector("#feel").innerHTML = `FEELS LIKE: ${Math.round(
+  document.querySelector("#feel").innerHTML = `Feels Like: ${Math.round(
     response.data.main.feels_like
   )}°C`;
 
   document.querySelector(
     "#humidity"
-  ).innerHTML = `HUMIDITY: ${response.data.main.humidity}%`;
-  document.querySelector("#windSpeed").innerHTML = `WIND SPEED: ${Math.round(
+  ).innerHTML = `Humidity: ${response.data.main.humidity}%`;
+  document.querySelector("#windSpeed").innerHTML = `Wind Speed: ${Math.round(
     response.data.wind.speed
   )} mph`;
 

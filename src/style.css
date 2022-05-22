@@ -2,147 +2,132 @@
   display: block;
   margin: 0 auto;
   padding: 20px;
-  background: #f8f9fa;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   width: 45rem;
 }
 
 ::placeholder {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 .btn-default {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 #search {
   margin-top: 20px;
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
+#current-location {
+  font-size: 20px;
+  color: black;
+}
+#change-degree {
+  font-size: 20px;
+  color: black;
+}
 .container {
   max-width: 720px;
 }
 
 .localTime {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: grey;
+  color: black;
 }
 
 .time {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 38px;
-  color: #6893ee;
+  color: black;
 }
 
 .cityTemp {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Montserrat", sans-serif;
   padding: 20px 20px;
   text-align: center;
-  background-color: #d0dfff;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  border-radius: 0%;
+  border-color: white;
 }
 .cityName {
   font-size: 50px;
-  color: white;
+  color: black;
 }
 
 .cityDeg {
-  font-size: 65px;
-  color: #6893ee;
+  font-size: 50px;
+  color: black;
 }
 
 .cityDescription {
   font-size: 30px;
-  color: #86abf9;
+  color: black;
 }
 
 .tempDetails {
-  font-family: "Cabin Sketch", cursive;
-  padding: 30px;
-  text-align: center;
-  background-color: #d0dfff;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
   font-size: 20px;
-  color: #6893ee;
+  color: black;
 }
 .forecast {
   color: #f8f9fa;
 }
 .celcius {
-  color: grey;
+  color: black;
   font-size: 15px;
 }
 
 .fahrenheit {
-  color: darkgray;
+  color: black;
   font-size: 15px;
 }
 
 .forecast {
-  font-family: "Cabin Sketch", cursive;
+  font-family: "Assistant", sans-serif;
+  color: black;
 }
 .monday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 .tuesday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 .wednesday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 .thursday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 .friday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 .saturday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 .sunday {
-  background-color: #d0dfff;
+  background-color: white;
   text-align: center;
-  padding: 18px;
-  border-radius: 50%;
-  border: solid 3px;
-  border-color: #6893ee;
+  padding: 20px;
 }
 
 .openSource {
   text-align: center;
+}
+
+.row.g-0 > .col {
+  border-right: 1px solid #f2f2f2;
 }

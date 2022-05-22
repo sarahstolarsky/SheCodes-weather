@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=M+PLUS+Rounded+1c&family=Nunito:wght@300&family=PT+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Assistant&family=Cormorant+Garamond:wght@500&family=Montserrat&family=Oxygen&display=swap"
       rel="stylesheet"
     />
     <link
@@ -28,67 +28,92 @@
     <div class="card card-styling">
       <form id="search-form" class="container forms">
         <div class="row">
-          <div class="col-9">
+          <div class="col-7">
             <input
               class="form-control form-control-lg"
               type="text"
-              placeholder="ENTER CITY"
+              placeholder="Enter City"
               id="search-input"
             />
           </div>
-          <div class="col-1">
+          <div class="col-2">
             <input
               type="submit"
-              class="btn btn-default btn-lg"
+              class="btn btn-default btn-lg btn-light"
               role="search-button"
-              value="🔍"
+              value="Search"
             />
           </div>
           <div class="col-1">
-            <a class="btn btn-default btn-lg" href="#" role="button">°C</a>
-          </div>
-          <div class="col-1">
-            <a class="btn btn-default btn-lg" href="#" role="button">°F</a>
-          </div>
-        </div>
-      </form>
-      <div class="col-12">
         <a
-          class="btn btn-default btn-lg"
-          id="current-location"
+          class="btn btn-default btn-lg btn-light"
+          id="change-degree"
           href="#"
           role="button"
-          >Current Location
-        </a>
-      </div>
+          >°C</a
+        >
+        </div>
+         <div class="col-1">
+        <a
+          class="btn btn-default btn-lg btn-light"
+          id="change-degree"
+          href="#"
+          role="button"
+          >°F</a>
+         </div>
+           <div class="col-1">
+      <a
+        class="btn btn-default btn-lg btn-light"
+        id="current-location"
+        href="#"
+        role="button"
+        >📍
+      </a>
+       </div>
+          
+     
+    
+       
+     
+      </form>
+</div>
       <br />
       <div class="row">
         <div class="col-6">
           <div class="cityTemp">
-            <div id="city-name" class="cityName">PARIS</div>
+            <div id="city-name" class="cityName">Paris</div>
             <div id="city-deg" class="cityDeg">12°C</div>
             <div><img src=" " id="weather-icon" /></div>
-            <div id="description" class="cityDescription">SUNNY</div>
+            <div id="description" class="cityDescription">Sunny</div>
           </div>
         </div>
 
         <div class="col-6">
           <span>
-            <div class="localTime">LAST UPDATED</div>
+            <div class="localTime">Last Updated</div>
             <div class="time" id="current-time">11:22 a.m.</div>
           </span>
 
           <div class="tempDetails">
-            <div id="feel">FEELS LIKE: 34°C</div>
-            <div id="humidity">HUMIDITY: 91%</div>
-            <div id="windSpeed">WIND SPEED: 1 m/s</div>
+            <div id="feel">Feels Like 14°C</div>
+            <div id="humidity">Humidity 91%</div>
+            <div id="windSpeed">Wind Speed 1 m/s</div>
           </div>
         </div>
       </div>
 
       <br />
       <div class="forecast">
-        <div class="row">
+        <div class="card-group"></div>
+        <div class="row g-0">
+            <div class="col">
+            <div class="sunday">
+              SUN
+              <i class="fa-solid fa-cloud"></i>
+              <div class="celcius">4°</div>
+              <div class="fahrenheit">15°</div>
+            </div>
+          </div>
           <div class="col">
             <div class="monday">
               MON
@@ -137,14 +162,7 @@
               <div class="fahrenheit">15°</div>
             </div>
           </div>
-          <div class="col">
-            <div class="sunday">
-              SUN
-              <i class="fa-solid fa-cloud"></i>
-              <div class="celcius">4°</div>
-              <div class="fahrenheit">15°</div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
