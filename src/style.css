@@ -18,19 +18,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
-#current-location {
-  font-size: 20px;
-  color: black;
-}
-#celsius-link {
-  font-size: 20px;
-  color: black;
+#fahrenheit-link {
+  color: #6c757d;
+  border-color: #6c757d;
 }
 
-#farenhite-link {
-  font-size: 20px;
-  color: black;
+#celsius-link {
+  color: #6c757d;
+  border-color: #6c757d;
 }
+
 .container {
   max-width: 720px;
 }
@@ -56,7 +53,7 @@
   border-color: white;
 }
 .cityName {
-  font-size: 50px;
+  font-size: 30px;
   color: black;
 }
 
@@ -96,37 +93,37 @@
 .monday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .tuesday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .wednesday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .thursday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .friday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .saturday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .sunday {
   background-color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 
 .openSource {
