@@ -99,6 +99,39 @@ function displayCelciusTemperature(event) {
   let showTemp = document.querySelector("#city-deg");
   showTemp.innerHTML = `${Math.round(celsiusTemperature)}°C`;
 }
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri", "Sat"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `  
+            <div class="col">
+              <div id="forecast-date" class="forecast-date">${day}</div>
+              <img
+                src="http://openweathermap.org/img/wn/50d@2x.png"
+                alt=""
+                width="42"
+              />
+              <div id="forecast-temps" class="forecast-temps">
+                <span id="forecast-temp-max" class="forecast-temp-max">
+                  18°
+                </span>
+                <span id="forecast-temp-min" class="forecast-temp-min">
+                  12°
+                </span>
+              </div>
+            </div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+
+  forecastElement.innerHTML = forecastHTML;
+}
+
 let currentLocation = document.querySelector("#current-location");
 currentLocation.addEventListener("click", retreivePosition);
 
@@ -109,3 +142,5 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelciusTemperature);
+
+displayForecast();

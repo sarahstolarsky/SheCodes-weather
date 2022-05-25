@@ -75,6 +75,9 @@
   text-align: center;
   color: black;
 }
+.forecast {
+  text-align: center;
+}
 #forecast-date {
   font-family: "Corben", cursive;
   font-weight: bolder;
@@ -87,8 +90,17 @@
   text-align: center;
 }
 
+#forecast-temp-max {
+  color: grey;
+}
+
+#forecast-temp-min {
+  color: darkgrey;
+}
+
 .openSource {
   text-align: center;
+  font-family: "Nobile", sans-serif;
 }
 
 .row.g-0 > .col {
