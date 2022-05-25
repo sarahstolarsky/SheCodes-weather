@@ -7,15 +7,15 @@
 }
 
 ::placeholder {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nobile", sans-serif;
 }
 .btn-default {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nobile", sans-serif;
 }
 
 #search {
   margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nobile", sans-serif;
 }
 
 #fahrenheit-link {
@@ -33,20 +33,20 @@
 }
 
 .localTime {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-family: "Corben", cursive;
+  font-weight: 300;
   color: black;
 }
 
 .time {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Corben", cursive;
   font-weight: bold;
   font-size: 38px;
   color: black;
 }
 
 .cityTemp {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Corben", cursive;
   padding: 20px 20px;
   text-align: center;
   border-radius: 0%;
@@ -68,13 +68,14 @@
 }
 
 .tempDetails {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Corben", cursive;
+  font-weight: 300;
   text-align: left;
-  font-size: 20px;
   color: black;
 }
 .forecast {
-  color: #f8f9fa;
+  color: black;
+  font-family: "Nobile", sans-serif;
 }
 .celcius {
   color: black;
@@ -86,10 +87,6 @@
   font-size: 15px;
 }
 
-.forecast {
-  font-family: "Assistant", sans-serif;
-  color: black;
-}
 .monday {
   background-color: white;
   text-align: center;
