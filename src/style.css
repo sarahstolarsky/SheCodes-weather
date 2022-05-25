@@ -1,7 +1,7 @@
 .card-styling.card {
   display: block;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   width: 45rem;
 }
@@ -36,6 +36,7 @@
   font-family: "Corben", cursive;
   font-weight: 300;
   color: black;
+  font-size: 15px;
 }
 
 .time {
@@ -49,78 +50,41 @@
   font-family: "Corben", cursive;
   padding: 20px 20px;
   text-align: center;
-  border-radius: 0%;
-  border-color: white;
 }
 .cityName {
-  font-size: 30px;
+  font-size: 35px;
   color: black;
+  font-family: "Corben", cursive;
 }
 
 .cityDeg {
   font-size: 50px;
   color: black;
+  font-family: "Corben", cursive;
+  font-weight: bold;
 }
 
 .cityDescription {
-  font-size: 30px;
+  font-size: 35px;
   color: black;
 }
 
 .tempDetails {
   font-family: "Corben", cursive;
-  font-weight: 300;
-  text-align: left;
-  color: black;
-}
-.forecast {
-  color: black;
-  font-family: "Nobile", sans-serif;
-}
-.celcius {
-  color: black;
   font-size: 15px;
+  text-align: center;
+  color: black;
+}
+#forecast-date {
+  font-family: "Corben", cursive;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
 }
 
-.fahrenheit {
-  color: black;
-  font-size: 15px;
-}
-
-.monday {
-  background-color: white;
+#forecast-temps {
+  font-family: "Corben", cursive;
   text-align: center;
-  padding: 20px 30px;
-}
-.tuesday {
-  background-color: white;
-  text-align: center;
-  padding: 20px 30px;
-}
-.wednesday {
-  background-color: white;
-  text-align: center;
-  padding: 20px 30px;
-}
-.thursday {
-  background-color: white;
-  text-align: center;
-  padding: 20px 30px;
-}
-.friday {
-  background-color: white;
-  text-align: center;
-  padding: 20px 30px;
-}
-.saturday {
-  background-color: white;
-  text-align: center;
-  padding: 20px 30px;
-}
-.sunday {
-  background-color: white;
-  text-align: center;
-  padding: 20px 30px;
 }
 
 .openSource {
