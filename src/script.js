@@ -58,10 +58,10 @@ function displayForecast(response) {
               />
               <div id="forecast-temps" class="forecast-temps">
                 <span id="forecast-temp-max" class="forecast-temp-max">
-                  ${Math.round(forecastDay.temp.max)}°
-                </span>
+                  ${Math.round(forecastDay.temp.max)}°C
+                </br>
                 <span id="forecast-temp-min" class="forecast-temp-min">
-                  ${Math.round(forecastDay.temp.min)}°
+                  ${Math.round(forecastDay.temp.min)}°C
                 </span>
               </div>
             </div>`;
@@ -143,19 +143,6 @@ function retreivePosition(event) {
   navigator.geolocation.getCurrentPosition(searchPosition);
 }
 
-function displayFahrenheitTemperature(event) {
-  event.preventDefault();
-  let showTemp = document.querySelector("#city-deg");
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  showTemp.innerHTML = `${Math.round(fahrenheitTemperature)}°F`;
-}
-
-function displayCelciusTemperature(event) {
-  event.preventDefault();
-  let showTemp = document.querySelector("#city-deg");
-  showTemp.innerHTML = `${Math.round(celsiusTemperature)}°C`;
-}
-
 let currentLocation = document.querySelector("#current-location");
 currentLocation.addEventListener("click", retreivePosition);
 
@@ -167,4 +154,4 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelciusTemperature);
 
-// displayForecast();
+search("Paris");
