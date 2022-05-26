@@ -77,6 +77,8 @@
 }
 .forecast {
   text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 0.3rem;
 }
 #forecast-date {
   font-family: "Corben", cursive;
@@ -101,6 +103,7 @@
 .openSource {
   text-align: center;
   font-family: "Nobile", sans-serif;
+  text-decoration: none;
 }
 
 .row.g-0 > .col {
