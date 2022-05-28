@@ -121,13 +121,17 @@ function displayCity(event) {
 let searchCity = document.querySelector("#search-form");
 searchCity.addEventListener("submit", search);
 
-function search(event) {
-  event.preventDefault();
-  let city = document.querySelector("#search-input").value;
+function loadCity(city) {
   let units = "metric";
   let apiKey = "90692a316047200b2e1b151cc2f865a0";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(showTemp);
+}
+
+function search(event) {
+  event.preventDefault();
+  let city = document.querySelector("#search-input").value;
+  loadCity(city);
 }
 function searchPosition(position) {
   let lat = position.coords.latitude;
@@ -146,12 +150,6 @@ function retreivePosition(event) {
 let currentLocation = document.querySelector("#current-location");
 currentLocation.addEventListener("click", retreivePosition);
 
-let celsiusTemperature = null;
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", displayCelciusTemperature);
-
-search("Paris");
+window.onload = function () {
+  loadCity("Paris");
+};
