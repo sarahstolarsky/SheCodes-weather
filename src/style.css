@@ -7,15 +7,15 @@
 }
 
 ::placeholder {
-  font-family: "Nobile", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .btn-default {
-  font-family: "Nobile", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #search {
   margin-top: 20px;
-  font-family: "Nobile", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #fahrenheit-link {
@@ -33,34 +33,34 @@
 }
 
 .localTime {
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   color: black;
   font-size: 15px;
 }
 
 .time {
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 38px;
   color: black;
 }
 
 .cityTemp {
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   padding: 20px 20px;
   text-align: center;
 }
 .cityName {
   font-size: 35px;
   color: black;
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
 }
 
 .cityDeg {
   font-size: 50px;
   color: black;
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
 
@@ -70,39 +70,40 @@
 }
 
 .tempDetails {
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   text-align: center;
   color: black;
 }
 .forecast {
   text-align: center;
-  background-color: #f8f9fa;
+  background: white;
+
   border-radius: 0.3rem;
 }
 #forecast-date {
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: bolder;
   text-align: center;
   color: black;
 }
 
 #forecast-temps {
-  font-family: "Corben", cursive;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
 #forecast-temp-max {
-  color: grey;
+  color: black;
 }
 
 #forecast-temp-min {
-  color: darkgrey;
+  color: grey;
 }
 
 .openSource {
   text-align: center;
-  font-family: "Nobile", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
